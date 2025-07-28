@@ -1,9 +1,9 @@
 - 👋 Hi, I’m @Zzc0595
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...Python,HTML
+- 👀 I’m interested in computer science and mathmatics
+- 🌱 I’m currently learning C++
 - 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ... 2796442619@qq.com
-- hello！
+- 📫 How to reach me :2796442619@qq.com/zzc2619@outlook.com
+- hello！!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 <!---
 warning
