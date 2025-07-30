@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     string s("0");
-    cin >> s;
+    getline(cin,s);
     if (!s.empty())
         for(char &c:s)
             c='X';
