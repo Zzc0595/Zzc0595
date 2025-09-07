@@ -11,7 +11,8 @@ def gnr(x): #find a number for generating keys,gcd==1
         i = random.randint(0,x)
     return i
 d = gnr(oln) #private key
-e = gnr(oln) #pubilc key
-while (d==e):
-    e = gnr(oln)
+e = pow(d,-1,oln)
 print(f"Please tell the sender, the pubilc key pair (n,e) is ({n},{e}).\nSender use this key pair to code his message and send the ciphertext to here.")
+c = int(input("Enter the ciepher text: "))
+m = pow(c,d,n)
+print(f"The message is {m}")
