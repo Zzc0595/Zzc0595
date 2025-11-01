@@ -2,22 +2,19 @@
 #include <sstream>
 #include <cmath>
 namespace zm{
+    //绝对值函数
+    double abs(double m){
+        if (m>=0)return m;
+        if (m<0)return -m;}
     
-    class Point{
+        class Point{
         private:
         double x;
         double y;
 
         public:
         //构造函数
-        Point(double x_val = 0.0, double y_val = 0.0) : x(x_val), y(y_val) {}
-        //绝对值函数
-        double abs(double m){
-            if (m>=0)
-                return m;
-            if (m<0)
-                return -m;
-        }
+        Point(double x_val = 0.0, double y_val = 0.0) : x(x_val), y(y_val) {}        
         //double to std::string
         std::string Tostr(double d){
             std::stringstream ss;
@@ -55,8 +52,9 @@ namespace zm{
         return *this;
     }
 };
+    
     //两点距离
-    double dist(Point a ,Point b){
+    double dist_pnt(Point a ,Point b){
         if (a==b){return 0.0;}
         else{
             double dx= abs(a.get_x()-b.get_x());
